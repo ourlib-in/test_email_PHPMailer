@@ -24,6 +24,14 @@ require "vendor/autoload.php";
 //         $mail->SMTPAuth = true;
 //         $mail->Username = "";
 //         $mail->Password = '';
+ //          $mail->SMTPAutoTLS = false;
+ //          $mail->SMTPOptions = array(
+ //          'ssl' => array(
+ //          'verify_peer' => false,
+ //          'verify_peer_name' => false,
+ //          'allow_self_signed' => true
+ //          ));
+ //          $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 
 // 	$mail->setFrom("");
 
